@@ -7,7 +7,7 @@ const errorHandler = (err, req, res, next) => {
     });
 };
 
-module.exports = errorHandlerMiddleware;
+module.exports = errorHandler;
 
 // Códigos de status HTTP mais comuns:
 // 200 -> OK (tudo certo)

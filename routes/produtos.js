@@ -4,7 +4,7 @@ const router = express.Router();
 let db = require('../data/database');
 
 router.get('/erro-teste', (req, res) => {
-    throw new Error("O servidor erro teste ")
+    throw new Error("O servidor do Starbucks tropeçou! ")
 });
 
 router.get('/', (req,res) => {
